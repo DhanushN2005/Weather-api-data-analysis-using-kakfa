@@ -4,7 +4,7 @@ import time
 from kafka import KafkaProducer
 from kafka.errors import NoBrokersAvailable
 
-API_KEY = "6fde3974804d46acbcb44901262101"
+API_KEY = "6fdexxxxxxxxxxxxxxxxxxxx262101"
 CITY = "COIMBATORE"
 
 URL = f"http://api.weatherapi.com/v1/current.json?key={API_KEY}&q={CITY}&aqi=no"
@@ -37,3 +37,4 @@ while True:
     except Exception as e:
         print("⚠️ Error sending data:", e)
         time.sleep(5)
+
